@@ -1,0 +1,4 @@
+﻿metric,model_v2_2,random_mean,random_p2_5,random_p97_5,random_max
+detected,29,4.7715,1.0,9.0,12
+nonins_fp_users,299,532.491,513.0,552.0,561
+tp_days,38,5.0895,1.0,10.0,14

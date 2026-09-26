@@ -1,0 +1,9 @@
+﻿period,channel,incident_alert_days,normal_alert_days,insider_outside_alert_days,incident_detected_users,insiders_alerted_any_date,outside_only_insiders
+post,email,26,457,15,19,29,10
+post,logon,12,280,52,10,16,6
+post,combined,38,737,67,29,41,12
+post,email_danger,3,14,0,3,3,0
+all,email,26,641,27,19,35,16
+all,logon,12,389,115,10,18,8
+all,combined,38,1030,142,29,46,17
+all,email_danger,3,14,0,3,3,0

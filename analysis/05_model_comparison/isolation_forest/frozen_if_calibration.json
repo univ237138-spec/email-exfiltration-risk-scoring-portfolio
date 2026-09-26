@@ -1,0 +1,75 @@
+{
+  "version": "email-review-v2.2",
+  "created": "2026-09-22",
+  "labels_used": false,
+  "clip_negative_z": true,
+  "calibration_rows": 82742,
+  "tune_train_rows": 62609,
+  "tune_holdout_rows": 20133,
+  "target_rate": {
+    "email": 0.002368809069154722,
+    "logon": 0.0020787508157888374
+  },
+  "features": {
+    "email": [
+      "corp_ext_send_cnt_z",
+      "new_ext_rcpt_cnt_z",
+      "corp_ext_att_mail_cnt_z",
+      "personal_att_mail_cnt_z",
+      "jobkw_mail_flag",
+      "novel_night_mail"
+    ],
+    "logon": [
+      "other_pc_logon_cnt_z",
+      "night_logon_cnt_z"
+    ]
+  },
+  "chosen": {
+    "email": {
+      "max_samples": 16384,
+      "n_estimators": 1000,
+      "rule_satisfied": true
+    },
+    "logon": {
+      "max_samples": 256,
+      "n_estimators": 1000,
+      "rule_satisfied": true
+    }
+  },
+  "thresholds": {
+    "email": {
+      "threshold": 0.6593044088311599,
+      "calibration_alert_rate": 0.002368809069154722
+    },
+    "logon": {
+      "threshold": 0.8274073017144329,
+      "calibration_alert_rate": 0.0020787508157888374
+    }
+  },
+  "raw_z_thresholds": {
+    "email": {
+      "threshold": 0.6436885947306197,
+      "calibration_alert_rate": 0.002368809069154722
+    },
+    "logon": {
+      "threshold": 0.7931059406182295,
+      "calibration_alert_rate": 0.0020787508157888374
+    }
+  },
+  "seed_thresholds": {
+    "email": {
+      "0": 0.6593044088311599,
+      "1": 0.6617800130144502,
+      "2": 0.6604765518939492,
+      "3": 0.661788644165699,
+      "4": 0.6603651349463359
+    },
+    "logon": {
+      "0": 0.8274073017144329,
+      "1": 0.8249593653295827,
+      "2": 0.8276428703075404,
+      "3": 0.826456167637485,
+      "4": 0.8263327463312105
+    }
+  }
+}

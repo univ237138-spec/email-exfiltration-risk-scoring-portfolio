@@ -1,0 +1,14 @@
+# 원본·파생 데이터는 CERT r4.2 라이선스상 재배포하지 않습니다
+inputs/
+labels/
+outputs/
+dashboard/data/
+*.parquet
+*.zip
+
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
