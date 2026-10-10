@@ -13,7 +13,7 @@
 | 기술 | Python · pandas · NumPy · SciPy · scikit-learn (Isolation Forest) · Matplotlib · Streamlit · Plotly |
 | 핵심 | 비지도 이상 점수 설계 · 극단적 불균형 데이터 평가 · 같은 조사량 비교 · 과적합 방지 의사결정 |
 
-### ▶ [대시보드 바로 보기](https://teirencloud-qc3nzy5td7toothhq4cgdx.streamlit.app/user)
+### ▶ [대시보드 바로 보기](https://siemcloud-qc3nzy5td7toothhq4cgdx.streamlit.app/user)
 
 ---
 
@@ -175,7 +175,7 @@ flowchart LR
 
 ## 7. 결과물: 보안 담당자용 대시보드
 
-### ▶ [대시보드 바로 보기](https://teirencloud-qc3nzy5td7toothhq4cgdx.streamlit.app/user)
+### ▶ [대시보드 바로 보기](https://siemcloud-qc3nzy5td7toothhq4cgdx.streamlit.app/user)
 
 "오늘 누구를, 왜 조사해야 하는가"에 화면 네 개로 답합니다.
 

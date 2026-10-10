@@ -1,6 +1,6 @@
 # 보안 담당자용 대시보드
 
-### ▶ [배포된 대시보드 보기](https://teirencloud-qc3nzy5td7toothhq4cgdx.streamlit.app/user)
+### ▶ [배포된 대시보드 보기](https://siemcloud-qc3nzy5td7toothhq4cgdx.streamlit.app/user)
 
 확정 모델 `email-review-v2.2`의 점수 결과를 보여주는 Streamlit 앱입니다. "오늘 누구를, 왜 조사해야 하는가"에 답하는 것이 목표입니다.
 
