@@ -15,7 +15,7 @@ import ui
 from views import detail, overview, policy, ranking
 
 HERE = Path(__file__).resolve().parent
-st.set_page_config(page_title="이메일 외부유출 위험 분석", page_icon=":material/shield_person:",
+st.set_page_config(page_title="SIEM봤다 · 이메일 외부유출 위험 분석", page_icon=":material/shield_person:",
                    layout="wide", initial_sidebar_state="expanded")
 st.markdown(f"<style>{(HERE / 'styles' / 'app.css').read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 
@@ -61,6 +61,7 @@ pages = {
 ui.PAGES.update(pages)
 page = st.navigation(list(pages.values()), position="sidebar")
 
+st.logo(str(HERE / "assets" / "siem-bwatda-dark.png"), size="large")
 with st.sidebar:
     st.markdown(
         f"""<div class="side-info">
