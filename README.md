@@ -8,7 +8,7 @@
 | 항목 | 내용 |
 |---|---|
 | 유형 | 개인 프로젝트 |
-| 기간 | 2026.09 |
+| 기간 | 2026.09 ~ 2026.10 |
 | 데이터 | CERT Insider Threat r4.2 (합성 보안 로그) · 사용자 1,000명 · 약 16.5개월 · 이메일 131만 건 · 로그온 85만 건 |
 | 기술 | Python · pandas · NumPy · SciPy · scikit-learn (Isolation Forest) · Matplotlib · Streamlit · Plotly |
 | 핵심 | 비지도 이상 점수 설계 · 극단적 불균형 데이터 평가 · 같은 조사량 비교 · 과적합 방지 의사결정 |
